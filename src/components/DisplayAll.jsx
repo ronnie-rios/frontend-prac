@@ -1,6 +1,8 @@
-import React from 'react'
+import { useData } from '../context/dataContext'
 
 const DisplayAll = () => {
+  const { dataState, setDataState } = useData();
+  
   return (
     <div>DisplayAll</div>
   )
